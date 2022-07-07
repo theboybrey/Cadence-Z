@@ -820,3 +820,10 @@ header .song_side .popular_artists .item li img{
     color: #4c5262;
     cursor: pointer;
 } 
+
+
+@media screen and (min-width: 767px) and (max-width: 999px){
+    .header:nth-child(*){
+        display: none;
+    }
+}
