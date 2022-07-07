@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <title>Cadence Z</title>
+</head>
+<body>
+    <header>
+        <div class="menu_side">
+            <h1 style="font-family: 'Playfair Display';">Cadence Z</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-list"></i>Playlist</h4>
+                <h4><span></span><i class="bi bi-vinyl-fill"></i></i>Recently Played</h4>
+                <h4><span></span><i class="bi bi-collection-play-fill"></i>Top Grossing Songs</h4>
+            </div>
+            <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="/img/Mr Morale.jpeg" alt="">
+                    <h5>
+                        Die Hard
+                        <div class="subtitle">Kendrick Lamar ft Blxst, Amanda Reifer</div>
+                    </h5>
+                        <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="/img/Mr Morale.jpeg" alt="">
+                    <h5>
+                        Die Hard
+                        <div class="subtitle">Post Malone & The WeekNd</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="2"></i>   
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="/img/6.jpg" alt="">
+                    <h5>
+                        I like you
+                        <div class="subtitle">Post Malone ft Doja Cat</div>
+                    </h5>
+                        <i class="bi playListPlay bi-play-circle-fill" id="3"></i> 
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="/img/11.png" alt="">
+                    <h5>
+                        Kiss Me More
+                        <div class="subtitle">Doja Cat & SZA</div> 
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="/img/5.png" alt="">
+                    <h5>
+                        Overloading
+                        <div class="subtitle">Mavins</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="/img/4.jpg" alt="">
+                    <h5>
+                        Take Away
+                        <div class="subtitle">Kuami Eugene</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                </li>
+                <li class="songItem">
+                    <span>07</span>
+                    <img src="/img/12.jpg" alt="">
+                    <h5>
+                        Industry Baby
+                        <div class="subtitle">Lil Nas X ft Jack Harlow</div>
+                    </h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="7 "></i>
+                </li>
+            </div>
+        </div>
+
+
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li> <i class="bi bi-boombox "></i> Discover <span></span></li>
+                    <li> <i class="bi bi-broadcast"></i> Radio</li>
+                    <li> <i class="bi bi-layout-wtf"></i> Library</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Browse Track..." style="color: white;">
+                </div>
+                <div class="user">
+                    <img src="/img/lex.jpg" alt="User" title="@theboybrey">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>MzVee - Inveencible</h1>
+                <p>
+                   " Everything na Vanity
+                    <br>
+                    The cars and the property..."
+                </p>
+                <div class="btn">
+                    <button>Play</button>
+                    <button> Follow <i class="bi bi-person-check-fill"></i></button>
+                        <i class="bi x bi-collection-play"></i>
+                        <i class="bi x bi-badge-8k"></i>
+                        <i class="bi x bi-earbuds"></i>
+                </div>
+            </div>
+
+            <div class="popular_song">
+                    <div class="h4">
+                        <h4>Popular Songs</h4>
+                        <div class="btn_s">
+                            <i id = "left_scroll" class="bi bi-arrow-left-short"></i>
+                            <i id = "right_scroll " class="bi bi-arrow-right-short"></i>
+                        </div>
+                    </div>
+                    <div class="pop_song">
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/Davido-Ft-The-Samples-Stand-Strong-Artwork.jpg" alt="No Wahala">
+                                <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                            </div>
+                            <h5>
+                                Stand Strong
+                                <div class="subtitle">Davido ft The Samples</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/10.jpg" alt="Je M'appelle">
+                                <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                            </div>
+                            <h5>
+                                Je M'appelle
+                                <div class="subtitle">Darkovibes ft Davido</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/Magixx-Chocolate-artwork.webp" alt="Chocolate">
+                                <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                            </div>
+                            <h5>
+                                Chocolate
+                                <div class="subtitle">Magixx</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/1.jpeg" alt="No Wahala">
+                                <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                            </div>
+                            <h5>
+                                No Wahala
+                                <div class="subtitle">1da Banton</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/7.jpg" alt="No Wahala">
+                                <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+                            </div>
+                            <h5>
+                                Disturb
+                                <div class="subtitle">Kwesi Arthur</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/Camidoh-Sugarcane-Remix-Artwork.jpg" alt="Sugarcane">
+                                <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+                            </div>
+                            <h5>
+                                Sugarcane
+                                <div class="subtitle">Camidoh</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/8.jpg" alt="Therapy">
+                                <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+                            </div>
+                            <h5>
+                                Therapy
+                                <div class="subtitle">Stonebwoy</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/9.jpg" alt="Down Flat">
+                                <i class="bi playListPlay bi-play-circle-fill" id="15"></i>
+                            </div>
+                            <h5>
+                                Down Flat
+                                <div class="subtitle">Kelvyn Boy</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/Sarkodie-No-Pressure-Album-Artwork.jpg" alt="Overloading">
+                                <i class="bi playListPlay bi-play-circle-fill" id="16"></i>
+                            </div>
+                            <h5>
+                                Non-living Thing
+                                <div class="subtitle">Sarkodie ft Oxlade</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/Kidi-and-Tyga-Touch-It-Remix-cover-art-1200x1200.jpg" alt="Touch It">
+                                <i class="bi playListPlay bi-play-circle-fill" id="17"></i>
+                            </div>
+                            <h5>
+                                Touch It (RMX)
+                                <div class="subtitle">KiDi ft Tyga</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/5.png" alt="Overloading">
+                                <i class="bi playListPlay bi-play-circle-fill" id="18"></i>
+                            </div>
+                            <h5>
+                                Overloading
+                                <div class="subtitle">Mavins</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/5.png" alt="Buga">
+                                <i class="bi playListPlay bi-play-circle-fill" id="19"></i>
+                            </div>
+                            <h5>
+                                Overloading
+                                <div class="subtitle">Mavins</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/5.png" alt="Calm Down">
+                                <i class="bi playListPlay bi-play-circle-fill" id="20"></i>
+                            </div>
+                            <h5>
+                                Overloading
+                                <div class="subtitle">Mavins</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/5.png" alt="Calm Down">
+                                <i class="bi playListPlay bi-play-circle-fill" id="21"></i>
+                            </div>
+                            <h5>
+                                Overloading
+                                <div class="subtitle">Mavins</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/5.png" alt="Calm Down">
+                                <i class="bi playListPlay bi-play-circle-fill" id="22"></i>
+                            </div>
+                            <h5>
+                                Overloading
+                                <div class="subtitle">Mavins</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/5.png" alt="Calm Down">
+                                <i class="bi playListPlay bi-play-circle-fill" id="23"></i>
+                            </div>
+                            <h5>
+                                Overloading
+                                <div class="subtitle">Mavins</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/5.png" alt="Calm Down">
+                                <i class="bi playListPlay bi-play-circle-fill" id="24"></i>
+                            </div>
+                            <h5>
+                                Overloading
+                                <div class="subtitle">Mavins</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/5.png" alt="Calm Down">
+                                <i class="bi playListPlay bi-play-circle-fill" id="25"></i>
+                            </div>
+                            <h5>
+                                Overloading
+                                <div class="subtitle">Mavins</div>
+                            </h5>
+                        </li> 
+                        <li class="songItem">
+                            <div class="img_play">
+                                <img src="/img/5.png" alt="Calm Down">
+                                <i class="bi playListPlay bi-play-circle-fill" id="26"></i>
+                            </div>
+                            <h5>
+                                Overloading
+                                <div class="subtitle">Mavins</div>
+                            </h5>
+                        </li> 
+                    </div>
+            </div>
+            <div class="popular_artists">
+                <div class="h4">
+                    <h4>Popular Artists</h4>
+                    <div class="btn_s">
+                        <i id = "left_scrolls" class="bi bi-arrow-left-short"></i>
+                        <i id = "right_scrolls " class="bi bi-arrow-right-short"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <li>
+                        <img src="/img/Adina-Picture.jpeg" alt="Adina" title="Adina">
+                    </li>
+                    <li>
+                        <img src="/img/3.jpg" alt="Harry Styles" title="Harry Styles">
+                    </li>
+                    <li>
+                        <img src="/img/do.jpg" alt="Doja Cat" title="Doja Cat">
+                    </li>
+                    <li>
+                        <img src="/img/Kwesi.jfif" alt="Kwesi Arthur" title="Kwesi Arthur">
+                    </li>
+                    <li>
+                        <img src="/img/W1.jpg" alt="Shatta Wale" title="Shatta Wale">
+                    </li>
+                    <li>
+                        <img src="/img/MzVee.jpg" alt="MzVee" title="MzVee">
+                    </li>
+                    <li>
+                        <img src="/img/KingPromise-5KRecords.jpg" alt="King Promise" title="King Promise">
+                    </li>
+                    <li>
+                        <img src="/img/twsvg.jfif" alt="Tiwa Savage" title="Tiwa Savage">
+                    </li>
+                    <li>
+                        <img src="/img/da1.jpg" alt="Davido" title="Davido">
+                    </li>
+                    <li>
+                        <img src="/img/Gyakie.jpg" alt="Gyakie" title="Gyakie">
+                    </li>
+                    <li>
+                        <img src="/img/Bhim.jpg" alt="Bhim" title="Stonebwoy">
+                    </li>
+                    <li>
+                        <img src="/img/mianj.webp" alt="Nicki Minaj" title="Nicki Minaj">
+                    </li>
+                    <li>
+                        <img src="/img/re1.jpg" alt="Rema" title="Rema">
+                    </li>
+                </div>
+            </div>
+            <div class="album">
+                <div class="h4">
+                    <h4>Top Trending Albums</h4>
+                </div>
+
+                <div class="albums">
+                    <li class="albumItem">
+                        <div class="img_play">
+                            <img src="/img/Mr Morale.jpeg" alt="Mr Morale">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>
+                            Mr Morale
+                            <div class="subtitle">Kendrick Lamar</div>
+                        </h5>
+                    </li> 
+                    <li class="albumItem">
+                        <div class="img_play">
+                            <img src="/img/12.jpg" alt="Montero">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>
+                            Montero
+                            <div class="subtitle">Lil Nas X</div>
+                        </h5>
+                    </li> 
+                    <li class="albumItem">
+                        <div class="img_play">
+                            <img src="/img/6.jpg" alt="Twelve Carat Toothache">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>
+                            Twelve Carat Toothache
+                            <div class="subtitle">Post Malone</div>
+                        </h5>
+                    </li> 
+                    <li class="albumItem">
+                        <div class="img_play">
+                            <img src="/img/11.jpg" alt="Planet Her">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>
+                            Planet Her
+                            <div class="subtitle">Doja Cat</div>
+                        </h5>
+                    </li> 
+                    <li class="albumItem">
+                        <div class="img_play">
+                            <img src="/img/7.jpg" alt="Son of Jacob - Kwesi Arthur">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>
+                            Son of Jacob
+                            <div class="subtitle">Kwesi Arthur</div>
+                        </h5>
+                    </li> 
+                    <li class="albumItem">
+                        <div class="img_play">
+                            <img src="/img/Wizkid_-_Made_in_Lagos.png" alt="Made In Lagos">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>
+                            Made In Lagos
+                            <div class="subtitle">Wizkid</div>
+                        </h5>
+                    </li> 
+                   
+                    <li class="albumItem">
+                        <div class="img_play">
+                            <img src="/img/fameye.jpeg" alt="Songs of Peter">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>
+                            Songs of Peter
+                            <div class="subtitle">Fameye</div>
+                        </h5>
+                    </li> 
+                   
+                    <li class="albumItem">
+                        <div class="img_play">
+                            <img src="/img/aj.jpg" alt="Anloga Junction">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>
+                            Anloga Junction
+                            <div class="subtitle">Stonebwoy</div>
+                        </h5>
+                    </li> 
+                    <li class="albumItem">
+                        <div class="img_play">
+                            <img src="/img/Burna-Boy-5th-Album-Cover-Art.jpg" alt="Twice As Tall">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>
+                            Twice As Tall
+                            <div class="subtitle">Burna Boy</div>
+                        </h5>
+                    </li> 
+                    <li class="albumItem">
+                        <div class="img_play">
+                            <img src="/img/Sarkodie-No-Pressure-Album-Artwork.jpg" alt="No Pressure Album">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>
+                            No Pressure 
+                            <div class="subtitle">Sarkodie</div>
+                        </h5>
+                    </li> 
+                    <li class="albumItem">
+                        <div class="img_play">
+                            <img src="/img/kidi-golden-boy-art.webp" alt="Golden Boy">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>
+                            Golden Boy
+                            <div class="subtitle">KiDi</div>
+                        </h5>
+                    </li> 
+                    <li class="albumItem">
+                        <div class="img_play">
+                            <img src="/img/Eno-barony-ladies-first-album-1200x1200.jpg" alt="Ladies First">
+                            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>
+                            Ladies First
+                            <div class="subtitle">Eno Barony</div>
+                        </h5>
+                    </li> 
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="master_play">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="/img/7.jpg" alt="Kwesi Arthur" id="poster_master_play">
+            <h5 id = "title"> Jungle Music Pt 2 <br>
+                <div class="subtitle">Kwesi Arthur ft M Huncho </div>
+            </h5>
+            <div class="icon">
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="masterPlay"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:00</span>
+
+            <div class="vol">
+                <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+                <input type="range" id="vol" min="0" value="30" max="100">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+        </div>
+    </header>
+    
+    <script src="/app.js"></script>
+</body>
+</html> 
